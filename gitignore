@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Model weights and checkpoints (keep the repo small; adapters are tracked separately)
+*.safetensors
+*.bin
+*.pt
+*.gguf
+pruned_model/
+quantized_model/
+distilled_model/
+!**/adapter_model.safetensors
+
+# Python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+
+# CodeCarbon default log (we write our own CSVs)
+emissions.csv
