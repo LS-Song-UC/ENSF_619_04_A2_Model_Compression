@@ -1,0 +1,100 @@
+--- Run 1 ---
+ ```
+def below_zero(operations: List[int]) -> bool:
+    """
+    Detect if the balance of a bank account falls below zero at any point.
+
+    Args:
+        operations (List[int]): A list of deposit and withdrawal operations on the account.
+
+    Returns:
+        bool: True if the balance falls below zero at any point, False otherwise.
+    """
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+```
+
+--- Run 2 ---
+ ```
+def below_zero(operations: List[int]) -> bool:
+    """
+    Detect if the balance of a bank account falls below zero at any point.
+
+    Args:
+        operations (List[int]): A list of deposit and withdrawal operations on the account.
+
+    Returns:
+        bool: True if the balance falls below zero at any point, False otherwise.
+    """
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+```
+
+--- Run 3 ---
+ ```
+def below_zero(operations: List[int]) -> bool:
+    """
+    Detect if the balance of a bank account falls below zero at any point.
+
+    Args:
+        operations (List[int]): A list of deposit and withdrawal operations on the account.
+
+    Returns:
+        bool: True if the balance falls below zero at any point, False otherwise.
+    """
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+```
+
+--- Run 4 ---
+ ```
+def below_zero(operations: List[int]) -> bool:
+    """
+    Detect if the balance of a bank account falls below zero at any point.
+
+    Args:
+        operations (List[int]): A list of deposit and withdrawal operations on the account.
+
+    Returns:
+        bool: True if the balance falls below zero at any point, False otherwise.
+    """
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+```
+
+--- Run 5 ---
+ ```
+def below_zero(operations: List[int]) -> bool:
+    """
+    Detect if the balance of a bank account falls below zero at any point.
+
+    Args:
+        operations (List[int]): A list of deposit and withdrawal operations on the account.
+
+    Returns:
+        bool: True if the balance falls below zero at any point, False otherwise.
+    """
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+```
+
