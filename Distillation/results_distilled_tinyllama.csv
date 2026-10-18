@@ -1,0 +1,6 @@
+run,input_tokens,output_tokens,latency_s,emissions_kg,energy_kwh,accuracy_PF
+1,153,242,15.343,8.6262E-05,2.3347E-04,P
+2,153,218,7.233,5.0856E-05,1.3764E-04,Split
+3,153,223,6.804,5.1949E-05,1.406E-04,Split
+4,153,252,7.745,5.9318E-05,1.6055E-04,P
+5,153,222,6.632,5.205E-05,1.4088E-04,Split

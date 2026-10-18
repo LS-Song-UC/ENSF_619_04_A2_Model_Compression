@@ -1,0 +1,134 @@
+--- Run 1 ---
+Here is the Google-style docstring for the function:
+```
+def below_zero(operations: List[int]) -> bool:
+    """
+    You're given a list of deposit and withdrawal operations
+    on a bank account that starts with zero balance. Your task is to
+    detect if at any point the balance of account falls below zero,
+    and at that point function should return True.
+
+    Args:
+        operations (List[int]): A list of deposit and withdrawal operations on a bank account that starts with zero balance.
+
+    Returns:
+        bool: True if at any point the balance of the account falls below zero, False otherwise.
+    """
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+```
+Note that the docstring is formatted according to the Google Python Style Guide, which is widely used in the Python community. The docstring includes a brief description of the function, a list of arguments and their types, and a description of the return value.
+
+--- Run 2 ---
+Here is the Google-style docstring for the function:
+```
+def below_zero(operations: List[int]) -> bool:
+    """
+    You're given a list of deposit and withdrawal operations
+    on a bank account that starts with zero balance. Your task is to
+    detect if at any point the balance of account falls below zero,
+    and at that point function should return True.
+
+    Args:
+        operations (List[int]): A list of deposit and withdrawal operations on a bank account that starts with zero balance.
+
+    Returns:
+        bool: True if the balance of the account falls below zero at any point, False otherwise.
+    """
+```
+And here is the function code:
+```
+def below_zero(operations: List[int]) -> bool:
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+```
+
+--- Run 3 ---
+Here is the Google-style docstring for the `below_zero` function:
+```
+def below_zero(operations: List[int]) -> bool:
+    """
+    You're given a list of deposit and withdrawal operations
+    on a bank account that starts with zero balance. Your task is to
+    detect if at any point the balance of account falls below zero,
+    and at that point function should return True.
+
+    Args:
+        operations (List[int]): The list of deposit and withdrawal operations on a bank account that starts with zero balance.
+
+    Returns:
+        bool: True if the balance of the account falls below zero at any point, False otherwise.
+    """
+```
+And here is the function code:
+```
+def below_zero(operations: List[int]) -> bool:
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+```
+
+--- Run 4 ---
+Here is the Google-style docstring for the `below_zero` function:
+```
+def below_zero(operations: List[int]) -> bool:
+    """
+    You're given a list of deposit and withdrawal operations
+    on a bank account that starts with zero balance. Your task is to
+    detect if at any point the balance of account falls below zero,
+    and at that point function should return True.
+
+    Args:
+        operations (List[int]): The list of operations to check.
+
+    Returns:
+        bool: True if the balance of the account falls below zero, False otherwise.
+    """
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+```
+Note that the docstring is formatted according to the Google Python Style Guide, which is widely used in the Python community. The docstring includes a brief description of the function, a list of arguments, and a list of return values. The docstring also includes a brief explanation of the function's purpose and a list of the function's arguments.
+
+--- Run 5 ---
+Here is the Google-style docstring for the `below_zero` function:
+```
+def below_zero(operations: List[int]) -> bool:
+    """
+    You're given a list of deposit and withdrawal operations
+    on a bank account that starts with zero balance. Your task is to
+    detect if at any point the balance of account falls below zero,
+    and at that point function should return True.
+
+    Args:
+        operations (List[int]): A list of deposit and withdrawal operations on a bank account that starts with zero balance.
+
+    Returns:
+        bool: True if at any point the balance of account falls below zero, False otherwise.
+    """
+```
+And here is the function code:
+```
+def below_zero(operations: List[int]) -> bool:
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+```
+
